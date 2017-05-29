@@ -2,7 +2,7 @@
 // Rik Ruttenberg
 // 1677636
 // Jorn Bunk
-// Week 5 opdracht 1
+// Week 5 opdracht 2
 /* --------------------------- */
 
 #include "hwlib.hpp"
@@ -69,5 +69,5 @@ int main( void ){
    auto inverted_led4 = pin_out_invert(led4);
    
    auto leds = pin_out_all(inverted_led1, inverted_led2, inverted_led3, inverted_led4, hc595.p1, hc595.p2, hc595.p3, hc595.p4);
-   hwlib::blink(leds, 500);
+   hwlib::blink(leds, 200);
 }
