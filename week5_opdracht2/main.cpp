@@ -7,24 +7,44 @@
 
 #include "hwlib.hpp"
 
+/// \brief
+/// Invert the pin_out value.
+/// \details
+/// Inverts the pin_out value.
 class pin_out_invert : public hwlib::pin_out{
 private:
 	hwlib::pin_out & out1;
 public:
+/// \brief
+/// Returns a pin_out_invert object.
+/// \details
+/// This constructor returns a pin_out_invert object.
 	pin_out_invert(hwlib::pin_out & out1):
 		out1(out1)
 	{}
-	
+
+/// \brief
+/// This function sets the bool value.
+/// \details
+/// This function sets the bool value on out1.
 	void set(bool x, hwlib::buffering buf = hwlib::buffering::unbuffered){
 		out1.set(!x);
 	}
 };
 
+/// \brief
+/// This class makes a pin_out_all decorator.
+/// \details
+/// This decorator makes a list of values.
 class pin_out_all : public hwlib::pin_out{
 private:
    hwlib::pin_out * list[ 8 ];
 
 public:
+/// \brief
+/// This constructor makes a pin_out_all object.
+/// \details
+/// A pin_out_all object is made and the values are put into a list.
    pin_out_all( 
       hwlib::pin_out & p0, 
       hwlib::pin_out & p1 = hwlib::pin_out_dummy,  
@@ -38,7 +58,11 @@ public:
    ):
       list{ &p0, &p1, &p2, &p3, &p4, &p5, &p6, &p7 }
    {}
-   
+
+/// \brief
+/// Set the output pin to bool v.
+/// \details
+/// This function sets the pins to the bool value v.
    void set( bool v, hwlib::buffering buf = hwlib::buffering::unbuffered ){
       for( auto p  : list ){
           p->set( v );

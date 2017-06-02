@@ -7,6 +7,11 @@
 
 #include "hwlib.hpp"
 
+/// \brief
+/// This function is for led control.
+/// \details
+/// This function turns one less led on if sw1 is pressed. 
+/// If sw2 is pressed there is going to be one more led on.
 void led_control(hwlib::port_out & leds, hwlib::target::pin_in_out & sw1, hwlib::target::pin_in_out & sw2){
 	sw1.direction_set_input();
     sw2.direction_set_input();
@@ -35,8 +40,8 @@ int main( void ){
    auto led3 = hwlib::target::pin_out(hwlib::target::pins::d6);
    auto led4 = hwlib::target::pin_out(hwlib::target::pins::d7);
    
-   auto sw1 = hwlib::target::pin_in_out(hwlib::target::pins::d8);
-   auto sw2 = hwlib::target::pin_in_out(hwlib::target::pins::d9);
+   auto sw1 = hwlib::target::pin_in_out(hwlib::target::pins::d11);
+   auto sw2 = hwlib::target::pin_in_out(hwlib::target::pins::d12);
    
    auto leds = hwlib::port_out_from_pins(led1, led2, led3, led4);
    ::led_control(leds, sw1, sw2);

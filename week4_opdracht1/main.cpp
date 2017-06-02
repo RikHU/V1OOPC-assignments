@@ -7,9 +7,14 @@
 
 #include "hwlib.hpp"
 
+/// \brief
+/// This function kitts on a port_out object.
+/// \details
+/// This function kitts on a port out object.
+/// You need to give a port out of leds and a interval with the function.
 void kitt( hwlib::port_out & leds, int ms = 1000 ){
 	for(;;){
-		for( unsigned int i = 0; i < leds.number_of_pins()-1; i++ ){
+		for( unsigned int i = 0; i < leds.number_of_pins()-2; i++ ){
 			leds.set( 0x03 << i);
 			hwlib::wait_ms( ms );
 		}

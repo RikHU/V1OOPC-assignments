@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=week1_opdracht3
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/rikru/Desktop/PracticumOpgaven
-ProjectPath            :=C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3
+WorkspacePath          :=C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven
+ProjectPath            :=C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=rikru
-Date                   :=30/04/2017
+Date                   :=02/06/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-32/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-32/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
@@ -102,7 +102,7 @@ $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/circle.cpp$(ObjectSuffix): circle.cpp $(IntermediateDirectory)/circle.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/circle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/circle.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/circle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/circle.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/circle.cpp$(DependSuffix): circle.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/circle.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/circle.cpp$(DependSuffix) -MM circle.cpp
 
@@ -110,7 +110,7 @@ $(IntermediateDirectory)/circle.cpp$(PreprocessSuffix): circle.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/circle.cpp$(PreprocessSuffix) circle.cpp
 
 $(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix): filled_rectangle.cpp $(IntermediateDirectory)/filled_rectangle.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/filled_rectangle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/filled_rectangle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/filled_rectangle.cpp$(DependSuffix): filled_rectangle.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/filled_rectangle.cpp$(DependSuffix) -MM filled_rectangle.cpp
 
@@ -118,7 +118,7 @@ $(IntermediateDirectory)/filled_rectangle.cpp$(PreprocessSuffix): filled_rectang
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/filled_rectangle.cpp$(PreprocessSuffix) filled_rectangle.cpp
 
 $(IntermediateDirectory)/line.cpp$(ObjectSuffix): line.cpp $(IntermediateDirectory)/line.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/line.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/line.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/line.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/line.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/line.cpp$(DependSuffix): line.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/line.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/line.cpp$(DependSuffix) -MM line.cpp
 
@@ -126,7 +126,7 @@ $(IntermediateDirectory)/line.cpp$(PreprocessSuffix): line.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/line.cpp$(PreprocessSuffix) line.cpp
 
 $(IntermediateDirectory)/rectangle.cpp$(ObjectSuffix): rectangle.cpp $(IntermediateDirectory)/rectangle.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/rectangle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/rectangle.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/rectangle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/rectangle.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/rectangle.cpp$(DependSuffix): rectangle.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/rectangle.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/rectangle.cpp$(DependSuffix) -MM rectangle.cpp
 
@@ -134,7 +134,7 @@ $(IntermediateDirectory)/rectangle.cpp$(PreprocessSuffix): rectangle.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/rectangle.cpp$(PreprocessSuffix) rectangle.cpp
 
 $(IntermediateDirectory)/train.cpp$(ObjectSuffix): train.cpp $(IntermediateDirectory)/train.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/train.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/train.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/train.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/train.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/train.cpp$(DependSuffix): train.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/train.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/train.cpp$(DependSuffix) -MM train.cpp
 
@@ -142,7 +142,7 @@ $(IntermediateDirectory)/train.cpp$(PreprocessSuffix): train.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/train.cpp$(PreprocessSuffix) train.cpp
 
 $(IntermediateDirectory)/window.cpp$(ObjectSuffix): window.cpp $(IntermediateDirectory)/window.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/PracticumOpgaven/week1_opdracht3/window.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/window.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/rikru/Desktop/school_hbo_ict/Eerste_jaar/C++/PracticumOpgaven/week1_opdracht3/window.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/window.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/window.cpp$(DependSuffix): window.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/window.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/window.cpp$(DependSuffix) -MM window.cpp
 
